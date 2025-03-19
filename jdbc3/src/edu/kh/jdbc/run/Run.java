@@ -1,14 +1,13 @@
 package edu.kh.jdbc.run;
 
-import edu.kh.jdbc.view.UserView;
+import edu.kh.jdbc.view.MarketView;
 
 public class Run {
 
 	public static void main(String[] args) {
+		MarketView view = new MarketView();
 		
-		UserView view = new UserView();
-		
-		view.mainMenu();
-		
+		view.menu();
 	}
+
 }
