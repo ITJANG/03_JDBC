@@ -10,6 +10,13 @@ import java.sql.Statement;
 public class JDBCExample1 {
 	
 	public static void main(String[] args) {
+		/*
+		 * ! 팁 !
+		 * import java.sql.Connection; // 임포트
+		 * conn.setAutoCommit(false); // 오토커밋 off
+		 * executeQuery() // SELECT 수행, ResultSet 반환
+		 * executeUpdate() // DML 수행, 결과 행 갯수(int) 반환
+		 * */
 		
 		/*
 		 * JDBC (Java DataBase Connectivity)
