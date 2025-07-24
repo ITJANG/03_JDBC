@@ -261,6 +261,7 @@ public class UserDAO {
 				String userName = rs.getString("USER_NAME");
 				String enrollDate = rs.getString("ENROLL_DATE");
 				
+				
 				user = new User(userNo, userId, userPw, userName, enrollDate);
 			}
 			
